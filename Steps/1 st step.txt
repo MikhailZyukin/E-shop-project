@@ -1,3 +1,0 @@
-install git bash , nodejs 
-
-create a remote & local repository (git clone |repository link| |Name of folder in the PC|) 

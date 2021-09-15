@@ -1,0 +1,19 @@
+{
+  "name": "e_shopproject",
+  "version": "1.0.0",
+  "description": "online_shop",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MikhailZyukin/E-shop-project.git"
+  },
+  "author": "Mikhail Zyukin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MikhailZyukin/E-shop-project/issues"
+  },
+  "homepage": "https://github.com/MikhailZyukin/E-shop-project#readme"
+}

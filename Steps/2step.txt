@@ -1,8 +1,0 @@
-1 create a server <node> to start Ctrl+C two times to stop server
-2 create app.js (first creation of server and port)
-3 launch app via command <node app.js>
-4 open browser type <localhost:3000> or any other Selected port
-5 create app2.js (second url adress assingment)
-6 launch app via command <node app2.js>
-7 open browser type <localhost:3000> and you will see the main page
-8 open browser type <localhost:3000/category> and you will see the category page (url = uniform resource locator)
