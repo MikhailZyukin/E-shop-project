@@ -1,0 +1,4 @@
+to install pug <npm install pug>
+check package.json file for the correct version of pug
+create views folder (where templates will be stored) 
+launch template maker.

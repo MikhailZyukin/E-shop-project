@@ -1,3 +1,4 @@
 Create an app with npm <npm init> in bash in main directory
 Download Node framework on of the famous frame works. <npm install express --save>
-Download 
+Create Public folder for positioning the static website
+Installed index on server
