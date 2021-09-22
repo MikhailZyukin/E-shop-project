@@ -1,11 +1,24 @@
 doctype html
-html(lang="en")
-    head
-        meta(charset="UTF-8")
-        meta(http-equiv="X-UA-Compatible", content="IE=edge")
-        meta(name="viewport", content="width=device-width, initial-scale=1.0")
-        link(rel="stylesheet", href="../styles/styles.css")
-        title My express app
-    body 
-        h1 My app 
-        img(src="https://www.ghost-bikes.com/fileadmin/_processed_/6/2/csm_ghost-bikes-road-rage-essential-blue-45_bea1ebdbbb.png", alt="bike")
+head
+  title E-shop
+  link(href='https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css' rel='stylesheet' integrity='sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl' crossorigin='anonymous')
+.container
+  .row
+    .col-lg-12.bg-dark
+      h1(style='color:white') Bike Shop
+  .row
+    .col-md-12
+      h4 Bicycle 
+  .row
+    .col-6
+      | img(src="https://www.ghost-bikes.com/fileadmin/_processed_/8/c/csm_ghost-bikes-Riot-Trail-essential-black-black-45_38d9fe71b8.png", alt="bike")
+    .col-6
+      h6 Description
+      br
+      p Lorem Ipsum
+      .row
+        .col-3
+          h6 Price :
+          p 9099
+        .col-3
+          button.btn.btn-success(type='button') Buy
