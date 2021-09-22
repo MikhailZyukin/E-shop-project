@@ -1,29 +1,36 @@
 doctype html
-head
-  title E-shop
-  link(href='https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css' rel='stylesheet' integrity='sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl' crossorigin='anonymous')
-.container
-  .row
-    .col-lg-12.bg-dark
-      h1(style='color:white') Bike Shop
-  .row
-    .col-md-12
-      h4 Bicycle 
-  .row
-    .col-6
-      img(style=('width:75%') src="https://www.ghost-bikes.com/fileadmin/_processed_/8/c/csm_ghost-bikes-Riot-Trail-essential-black-black-45_38d9fe71b8.png", alt="bike")
-    .col-6
-      h6 Description
-      br
-      p Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, doloribus 
-        |perspiciatis dicta dolorum sapiente, minima ut praesentium facilis repellendus perferendis? 
-        |Facere molestias fugit in!
-      p Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, doloribus 
-        |perspiciatis dicta dolorum sapiente, minima ut praesentium facilis repellendus perferendis? 
-        |Facere molestias fugit in!
+html(lang='en')
+    head
+        title E-shop
+        link(href='https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css' rel='stylesheet' integrity='sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl' crossorigin='anonymous')
+    body 
+        .container-fluid 
+            .row
+                .col-lg-12.bg-dark
+                    h1.text-light Bike Shop
+        .container 
+            .row
+                .col-md-12
+                    h4.d-flex.justify-content-center.mt-4 Bicycle 
+            .row
+                .col-12.col-md-6
+                    img.img-fluid( src="https://www.ghost-bikes.com/fileadmin/_processed_/8/c/csm_ghost-bikes-Riot-Trail-essential-black-black-45_38d9fe71b8.png", alt="bike")
+                .col-12.col-md-6
+                    h6.mt-5 Description
+                    br
+                    p Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, doloribus 
+                    |perspiciatis dicta dolorum sapiente, minima ut praesentium facilis repellendus perferendis? 
+                    |Facere molestias fugit in!
+                    p Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, doloribus 
+                    |perspiciatis dicta dolorum sapiente, minima ut praesentium facilis repellendus perferendis? 
+                    |Facere molestias fugit in!
+
         
-      .row
-        .col-3
-          h6 Price : 9099
-        .col-3
-          button.btn.btn-success(type='button') Buy
+                    .row.mt-3 
+                        .col-6
+                            h6 Price : 9099
+                        .col-6
+                            button.btn.btn-success(type='button') Buy
+        footer 
+            script(src='https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js' integrity='sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ' crossorigin='anonymous')
+
