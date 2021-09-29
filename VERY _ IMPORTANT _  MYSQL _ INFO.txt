@@ -1,0 +1,7 @@
+MySql note pad 
+___________________________________
+User : root
+Password : Root
+Port : 3306
+hostname : 127.0.0.1 or localhost
+___________________________________
