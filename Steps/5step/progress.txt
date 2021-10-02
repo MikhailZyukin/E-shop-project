@@ -1,0 +1,1 @@
+installed mysql2 & nodemon, succesfully connected database. 
