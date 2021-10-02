@@ -13,16 +13,23 @@ let con=mysql.createConnection({
     password:'Root',
     database:'test_schema'
 });
-con.connect(function(err){
-if (err) throw err;
-console.log("connected!!!");
-});
 
 app.listen(port,function(){
     console.log(`node express is working on port %s`,port);
 });
 
 app.get('/',function(request,response){
-    response.render('main');
+    con.query(
+        'SELECT * FROM customer_table',
+        function(err,result){
+        if (err) throw err;
+        console.log(result);
+        let names={};
+        for(let i=0; i<result.length;i++){
+            names[result[i]['id']]=result[i];
+        };
+        console.log(names);
+        response.render('main',{nms:names});
+        });
 });
 
